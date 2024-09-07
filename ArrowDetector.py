@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 import math
-image=cv.imread("arrow2D.jpg")
+image=cv.imread("arrow1.jpg")
 img = cv.resize(image, (500, 500),cv.INTER_CUBIC)
 hsv=cv.cvtColor(img,cv.COLOR_BGR2HSV)
 
